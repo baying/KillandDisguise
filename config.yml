@@ -1,0 +1,11 @@
+#config.yml默认编码为ANSI，如果你的服务器只支持utf-8，请把config.yml编码转为utf-8
+#推荐使用notepad++打开，下载地址：http://rj.baidu.com/soft/detail/13478.html?ald
+#更改前缀颜色请参考颜色代码网址：http://ess.khhq.net/mc/
+#更改内容时请按照格式填写
+#如何变色？
+#在''里，字符串前加上&+颜色代码便可以变色
+
+#是否允许该插件的功能启用,是的话填true，不是则填false
+enable: true
+#是否允许玩家退出就取消变身,是的话填true，不是则填false
+leave: false

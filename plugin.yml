@@ -1,0 +1,16 @@
+name: KillandDisguise
+main: baying.killanddisguise.main.KillandDisguise
+version: 1.0
+author: baying
+depend: [DisguiseCraft]
+
+commands:
+  kidclear:
+    description: 解除玩家的变身形态
+    usage: /kidclear 玩家名
+    permission: kidclear.use
+    permission-message: 你没有使用该命令的权限
+permissions:
+  kidclear.use:
+    description: 允许你使用/kidclear的权限
+    default: op
